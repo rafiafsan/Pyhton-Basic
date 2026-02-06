@@ -9,3 +9,22 @@ print(f"Ceiling division of a and b {a//b + (a%b > 0)}")
 print(f"Modulus of a and b: {a % b}")
 print(f"Exponentiation of a and b: {a ** b}")
 
+# logical and comparison operations
+print(a == b)
+print(a != b)
+print(a > b)
+print(a < b)
+print(a >= b)
+print(a <= b)
+print(a > 0 and b > 0)
+print(a > 0 or b > 0)
+print(not (a > 0 and b > 0))
+
+print({a and b})
+print({a or b})
+print(not a)
+print(a and b)
+
+
+
+
