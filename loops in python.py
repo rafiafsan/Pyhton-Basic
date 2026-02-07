@@ -37,7 +37,7 @@ while guess!=lottery_number and attempts < 7:
     print(f"Attempts: {attempts} and Guess: {guess}")
     if guess < lottery_number:
         print(f"Too low")
-    else:
+else:
         print(f"Too High")
     guess = int(input(f"Enter No.{attempts} guess:"))
 if guess == lottery_number:
